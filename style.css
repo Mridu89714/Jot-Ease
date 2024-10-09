@@ -1,0 +1,217 @@
+/* General Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar Style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.nav-links a:hover {
+    color: #333;
+}
+
+.sign-in-btn {
+    background-color: black;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sign-in-btn:hover {
+    background-color: #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    min-height: 80vh;
+}
+
+.hero img {
+    max-width: 50%;
+    margin-right: 2rem;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+}
+
+/* Services Section */
+.services {
+    padding: 3rem 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.button-container {
+    margin-top: 2rem;
+}
+
+.button-container .sign-in-btn {
+    padding: 0.8rem 2rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Card Structure for Contact Form */
+.contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-cards .card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+/* Button Styling */
+.button-container {
+    margin-top: 1.5rem;
+}
+
+.button-container button {
+    padding: 0.8rem 2rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+.footer {
+    padding: 1rem;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
