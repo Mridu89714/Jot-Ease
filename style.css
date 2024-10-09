@@ -138,52 +138,64 @@ body {
     padding: 0.8rem 2rem;
 }
 
-/* Contact Section */
+/* Contact Section Styling */
 .contact {
-    padding: 3rem 1rem;
     background-color: #f9f9f9;
+    padding: 40px 0;
     text-align: center;
 }
 
 .contact h2 {
+    margin-bottom: 20px;
     font-size: 2rem;
-    margin-bottom: 1.5rem;
     color: #333;
 }
 
-/* Card Structure for Contact Form */
-.contact-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.contact-cards .card {
-    background-color: #f9f9f9;
-    padding: 1.5rem;
+.contact-card {
+    background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
-label {
+.contact-card label {
     display: block;
+    text-align: left;
+    margin-bottom: 8px;
     font-size: 1rem;
-    margin-bottom: 0.5rem;
+    color: #333;
 }
 
-input,
-textarea {
+.contact-card input[type="text"],
+.contact-card input[type="email"],
+.contact-card textarea {
     width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 1px solid black;
-    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
 }
 
-textarea {
-    min-height: 120px;
+.contact-card textarea {
+    height: 150px;
+}
+
+.contact-card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-card button:hover {
+    background-color: #333;
 }
 
 /* Button Styling */
@@ -215,3 +227,4 @@ textarea {
 .footer p {
     font-size: 0.9rem;
 }
+
