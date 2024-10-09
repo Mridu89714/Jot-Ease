@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jot Ease</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">JOT EASE</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="dashboard.html">SERVICES</a></li>
+                <li><a href="https://www.chatbase.co/chatbot-iframe/uLd6UakxRq75HbfIU1jRu">EDUSENSEI</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <a href="login.html" class="sign-in-btn">SIGN IN</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="figma pic.jpeg" alt="Person working">
+            <div class="hero-text">
+                <h1>We Help You Save Your Time!</h1>
+                <p>Jot Ease is your all-in-one solution for managing notes and to-do lists seamlessly. Designed with simplicity and efficiency in mind, Jot Ease helps you stay organized and productive, whether you're a student, professional, or anyone looking to keep their tasks and ideas in order. Jot Ease is your all-in-one solution for managing notes and to-do lists seamlessly. Designed with simplicity and efficiency in mind, Jot Ease helps you stay organized and productive, whether you're a student, professional, or anyone looking to keep their tasks and ideas in order. Jot Ease combines the power of note-taking and task management in one user-friendly platform. Whether you’re brainstorming for a big project, managing your daily tasks, or simply jotting down ideas, NoteMaster provides the tools you need to stay organized and productive.
+
+                    Embrace a clutter-free life with Jot Ease - where your ideas and tasks come together. Sign up today and start transforming the way you work and organize.</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="virtual-assistant.png" alt="Assistant">
+                    <p>AI Assistant EduSensei at your service</p>
+                </div>
+                <div class="card">
+                    <img src="stopwatch.png" alt="Tasks">
+                    <p>Finish tasks on time</p>
+                </div>
+                <div class="card">
+                    <img src="post-it.png" alt="Notes">
+                    <p>Hassle free notes</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <a href="dashboard.html" class="sign-in-btn">Try Now</a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="send_email.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your Name">
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your Email">
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+    </main>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>All Rights Reserved | For Permissions or Inquiries Contact Me!</p>
+        </footer>
+</body>
+
+<script src="script.js"></script>
+<script>
+    window.embeddedChatbotConfig = {
+        chatbotId: "uLd6UakxRq75HbfIU1jRu",
+        domain: "www.chatbase.co"
+    };
+</script>
+<script src="https://www.chatbase.co/embed.min.js"
+    chatbotId="uLd6UakxRq75HbfIU1jRu"
+    domain="www.chatbase.co"
+    defer>
+</script>
+</html>
